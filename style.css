@@ -28,52 +28,6 @@ body {
     padding: 25px 15px;
     text-align: center;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     box-shadow: 0 0 20px #00ff88;
-    margin: 0 auto;
-}
-
-h1 {
-    color: #00ff88;
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 15px;
-    line-height: 1.4;
-}
-
-p {
-    font-size: 14px;
-    text-align: center;
-    margin: 8px 0;
-    line-height: 1.6;
-}
-
-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid #00ff88;
-    display: block;
-    margin: 15px auto;
-    object-fit: cover;
-}
-
-ul {
-    list-style: none;
-    text-align: center;
-    font-size: 14px;
-    padding: 0;
-    margin: 15px 0;
-}
-
-li {
-    margin: 6px 0;
-}
-
-a {
-    color: #00ff88;
-    text-decoration: none;
-    display: block;
-    margin: 8px 0;
-    font-size: 14px;
 }
