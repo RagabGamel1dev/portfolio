@@ -1,0 +1,81 @@
+body{background-color: #1a1a2e;
+color: white;
+}
+h1{
+    color: #00ff88;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00ff88;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+}
+ul{
+    list-style: none;  
+    text-align: center;
+    font-size: 22px;
+    padding: 0;
+    margin: 20px  0;
+
+}
+button{
+    background-color: #00ff88;
+    color: #1a1a2e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+}
+a{
+    color: #00ff88;
+    font-size: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    color: #ffffff;
+    text-shadow: 0 0 15px #00ff88;
+}
+.card{
+    background-color: #16213e;
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #00ff88;
+
+}
+@media (max-width: 600px){
+    .card {
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    .card img{width: 120px;
+        height: 120px;
+
+    }
+    .card h1 {
+        font-size: 28px;
+    }
+    .card p {
+        font-size: 16px;
+    }
+    .whatsapp-btn{
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+}
