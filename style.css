@@ -53,3 +53,22 @@ li {
     
     box-shadow: 0 0 20px #00ff88;
 }
+h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00ff88;
+    margin: 15px 0;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
